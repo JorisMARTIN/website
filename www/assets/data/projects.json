@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Garden Defense",
+        "description": "Jeu de tower defense réaliser dans le cadre de la gamejam du DUT-Informatique.",
+        "technologies": [
+            "Python (Pygame)"
+        ],
+        "image": "./assets/img/garden-defense.png",
+        "link": "https://github.com/Powerock38/gamejam2021"
+    },
+    {
+        "name": "Dwarf",
+        "description": "Jeu de dessin de bande dessinée colaboratif. Réalisé dans le cadre du projet de semetre 3 du DUT-Informatique.",
+        "technologies": [
+            "React.js",
+            "PHP, PostgreSQL"
+        ],
+        "image": "./assets/img/dwarf.png",
+        "link": "https://dwarf.jorismartin.fr/"
+    },
+    {
+        "name": "Tour of Heroes",
+        "description": "Projet de prise en main du framework Angular. Réalisé dans le cadre de la LP - AW. Application de création et d’édition d’héros et d’armes.",
+        "technologies": [
+            "Angular (TypeScript)",
+            "Firebase"
+        ],
+        "image": "./assets/img/tour-of-heroes.png",
+        "link": "https://github.com/JorisMARTIN/Tour-of-Heroes"
+    }
+]

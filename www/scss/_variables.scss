@@ -1,0 +1,19 @@
+$bgPrimary: #FF5757;
+$bgSecondary: #FFC5C5;
+$bgPrimaryVariant: #fc5b5b;
+
+$textPrimary: #000000;
+$textSecondary: #ffffff;
+
+$mobile-maxWidth: 576px;
+$tablet-maxWidth: 900px;
+
+@font-face {
+  font-family: 'Nova Round';
+  src: url('../assets/fonts/NovaRound-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url("../assets/fonts/PermanentMarker-Regular.ttf") format("truetype");
+}

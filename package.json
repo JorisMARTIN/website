@@ -1,0 +1,34 @@
+{
+  "name": "jorismartin.fr",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorisMARTIN/website.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "joris",
+    "martin"
+  ],
+  "author": "Joris MARTIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorisMARTIN/website/issues"
+  },
+  "homepage": "https://github.com/JorisMARTIN/website#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

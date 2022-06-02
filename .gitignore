@@ -1,2 +1,7 @@
-styles/dist
 .idea
+
+www/**/dist*
+
+node_modules
+package-lock.json
+yarn.lock
