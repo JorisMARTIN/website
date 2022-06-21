@@ -154,8 +154,11 @@ body {
                 }
 
                 @media screen and (max-width: $mobile-maxWidth) {
+                    & {
+                        flex-direction: column;
+                    }
+                    
                     & > p {
-                        width: 80%;
                         margin: 10px auto;
                     }
 
