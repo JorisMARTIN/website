@@ -1,0 +1,35 @@
+@import "variables";
+
+.custom-link {
+    color: $bgPrimary;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: $textPrimary;
+    border: 2px solid $textPrimary;
+    transition: all .35s;
+    position: relative;
+
+    span {
+        position: relative;
+        z-index: 2;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: $bgPrimary;
+        transition: all .35s;
+    }
+
+    &:hover {
+        color: $textPrimary;
+
+        &::after {
+            width: 100%;
+        }
+    }
+}

@@ -1,7 +1,14 @@
 [
     {
+        "name": "Mobiteach\nTableau Blanc",
+        "description": "Activité de l’application Mobiteach permettant de présenter un document et de l’annoter avec ses participants.",
+        "technologies": ["React.JS", "NestJS"],
+        "image": "./assets/img/whiteboard.png",
+        "link": "https://mobiteach.fr/news/tableau-blanc-nouvelles-fonctionnalites/"
+    },
+    {
         "name": "Garden Defense",
-        "description": "Jeu de tower defense réaliser dans le cadre de la gamejam du DUT-Informatique.",
+        "description": "Jeu de tower defense réalisée dans le cadre de la gamejam du DUT-Informatique.",
         "technologies": [
             "Python (Pygame)"
         ],
@@ -15,8 +22,7 @@
             "React.js",
             "PHP, PostgreSQL"
         ],
-        "image": "./assets/img/dwarf.png",
-        "link": "https://dwarf.jorismartin.fr/"
+        "image": "./assets/img/dwarf.png"
     },
     {
         "name": "Tour of Heroes",
